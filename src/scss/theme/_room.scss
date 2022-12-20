@@ -1,0 +1,149 @@
+// C'est le scss de la pafe 2 Rooms 
+
+// j'ai selectionner qui ici represente ma photo des Chambre de l'exterieur
+.roomext img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    padding: 20px;
+
+}
+
+.mainroom {
+    text-align: center;
+    color: $colorprincipal;
+    padding: 3%;
+
+
+}
+
+
+.roomolivier h3 {
+
+
+    padding: 5%;
+    text-align: center;
+    color: $colorprincipal;
+    font-size: 30px;
+
+}
+
+.pictureone img {
+    display: block;
+    margin: 0 5%;
+    width: 70%;
+}
+
+
+.picturetwo img {
+    display: block;
+    margin: 0 5%;
+    width: 70%;
+}
+
+// ici j'ai cibler la classe picturethree et son enfantc img (ligne 40 et 41 composant Mainroom.jsx)
+.picturethree img {
+    display: block;
+    margin: 0 5%;
+    width: 70%;
+    height: 40vh;
+
+
+}
+
+
+// Section id main et l'enfant container qui va sélection tous mes container.
+#main .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+
+}
+
+.item {
+    text-align: center;
+    color: $colorprincipal;
+    padding: 2%;
+
+    img {
+        padding: 2%;
+    }
+
+
+    .roomchene {
+        position: relative;
+        top: 10%;
+    }
+
+    .roomolonier {
+        position: relative;
+        top: 20%;
+
+    }
+
+
+    p {
+        position: relative;
+        top: 20%;
+    }
+
+
+}
+
+.b1 {
+    position: relative;
+    top: 30%;
+    color: $colorfoncer;
+    text-decoration: none;
+    background-color: $colorbtn;
+    border: 1px solid $colorbtn;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+#churrasqueira {
+    .hause {
+        color: $colorprincipal;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .item {
+        .pictureseven {
+            img {
+                width: 67%;
+            }
+
+        }
+
+        .pictureeight {
+            img {
+                width: 67%;
+            }
+        }
+    }
+
+    .item {
+        .pictureeleven {
+            img {
+                width: 150%;
+                height: 150%;
+
+            }
+        }
+    }
+
+
+}

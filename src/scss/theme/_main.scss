@@ -1,0 +1,164 @@
+// section Apropos
+.idyllique {
+
+    h3,
+    p {
+        position: relative;
+        color: $colorwhite;
+        top: 35vh;
+        left: 20%;
+    }
+
+    .btnapropos {
+        position: relative;
+        top: 40vh;
+        left: 20%;
+        background-color: $colorbtn;
+        color: $colorfoncer;
+        text-decoration: none;
+        border: 1px solid $colorprincipal;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+
+}
+
+.rooms {
+    .btn {
+
+        position: relative;
+
+        background-color: $colorbtn;
+        color: $colorfoncer;
+        text-decoration: none;
+        border: 1px solid $colorprincipal;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+
+
+}
+
+
+.imgpiscine {
+    img {
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        padding: 10px;
+
+    }
+
+}
+
+
+
+// section Rooms
+
+.titlerooms {
+
+    color: $colorprincipal;
+    padding: 30px;
+}
+
+.rooms {
+
+
+
+    h4,
+    p {
+        color: $colorprincipal;
+        padding: 10px;
+
+    }
+
+
+
+    .lolivier {
+        img {
+            width: 80%;
+            padding: 5px;
+
+        }
+
+    }
+
+    .lechene {
+        img {
+            width: 80%;
+
+        }
+    }
+
+    .churrasqueira {
+        img {
+            width: 50%;
+            padding-top: 20px;
+        }
+    }
+
+}
+
+.information {
+
+    padding: 3%;
+
+    .prestation {
+        position: relative;
+        color: $colorprincipal;
+
+    }
+
+
+}
+
+.info {
+    padding: 4%;
+
+    img {
+
+        width: 30%;
+
+    }
+
+    p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+
+.reservation {
+    img {
+
+        width: 100%;
+        height: 70vh;
+
+    }
+
+    h4 {
+        color: $colorfoncer;
+        top: 12rem;
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .btn {
+
+        top: 25rem;
+        position: relative;
+        text-align: center;
+        left: 40%;
+        color: white;
+        border: 1px solid $colorfoncer;
+        background: $colorprincipal;
+
+    }
+
+
+}
